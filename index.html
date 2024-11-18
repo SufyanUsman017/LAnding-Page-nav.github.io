@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAnding PAge</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main_container">
+            <div class="navbar">
+                <h1>Navbar</h1>
+                <div class="btnform">
+                    <button onclick="signup()">signup</button>
+                    <button onclick="signin()">signin</button>
+                </div>
+            </div>
+
+            <!--   sign up -->
+            <div class="signup" id="signup">
+                <div class="signupform" id="signupform">
+                    <h1>signup</h1>
+                    <div class="signupform_container">
+                         
+                            <div class="signupinput">
+                                <input type="text" id="name" placeholder="Name" required>
+                                <input type="text" id="username" placeholder="UserName" required>
+                            </div>
+                            <div class="signupinput">
+                                <input type="email" id="email" placeholder="Email" required>
+                                <input type="number" id="number" placeholder="Number" required>
+                            </div>
+                            <div class="signupinput">
+                                <input type="password" id="password" placeholder="Password" required>
+                                <input type="password" id="LastPassword" placeholder="LastPassword" required>
+                            </div>
+                            <label><input type="checkbox" id="check"> you
+                                intrested</label>
+                            <div class="btnsignup">
+                                <div class="btnsubmit">
+                                    <button onclick="submit()" id="submit">submit</button>
+                                </div>
+                            </div>
+
+                         
+                    </div>
+                </div>
+            </div>
+            <!-- sign in -->
+            <div class="signin">
+                <div class="flex">
+                    <div class="signinform" id="signin">
+                        <h1>Sign In</h1>
+                        <div class="signininput">
+                            <input type="email" id="Email" required placeholder="Email">
+                            <input type="passworwwd" id="passwords" placeholder="Password">
+                        </div>
+                        <div class="lable">
+                            <div class="btnsignin">
+                                <button onclick="login()">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

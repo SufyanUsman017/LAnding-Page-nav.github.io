@@ -1,0 +1,173 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial;
+}
+
+.main_container {
+    width: 100%;
+    height: 600px;
+    background-image: url("./WhatsApp\ Image\ 2024-07-31\ at\ 16.33.15_ad0fcad6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+.btnform {
+    width: 250px;
+    
+}
+
+.btnform button {
+    width: 100px;
+    height: 40px;
+    text-transform:uppercase;
+    background-color:brown;
+    color:antiquewhite;
+    border-color: greenyellow;
+    border-radius: 40px;
+    
+}
+
+
+
+
+/* sign up form css */
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.signupform {
+    max-width: 750px;
+    border: 1px solid;
+    min-height: 300px;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    /* position: relative;
+    left: 30%; */
+}
+
+.signupform h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+
+.signupform_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.signupinput {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 99%;
+    padding: 0px 5px;
+    /* position: relative; */
+    margin: 0px;
+}
+
+.signupinput input {
+    padding: 10px  ;
+    background-color: transparent;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.signupinput input::placeholder{
+    color: white;
+}
+.btnsubmit button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: gainsboro;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.btnsignup {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*     sign in form */
+.signin{
+    display: flex;
+    justify-content: center;
+    }
+.signinform{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: auto;
+    backdrop-filter: blur(20px);
+    flex-wrap: wrap;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.signinform h1{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.signininput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.signininput input{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.signininput input::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.btnsignin button{
+    padding: 10px;
+    width: 100px;
+    border-color: gainsboro;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.lable{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+   
+}
